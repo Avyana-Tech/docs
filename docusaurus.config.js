@@ -4,11 +4,11 @@ const BASE_URL = '/docs';
 
 module.exports = {
   title: 'Sef Driving Car Documentation',
-  url: '#',
+  url: 'https://avyana.tech',
   baseUrl: `/`,
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ja'], // ja
+    locales: ['en'], // ja
     localeConfigs: {
       en: { label: 'English' },
       ja: { label: '日本語' },
