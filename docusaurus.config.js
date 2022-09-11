@@ -1,10 +1,10 @@
 const path = require('path');
 
-const BASE_URL = '/docs';
+const BASE_URL = '/';
 
 module.exports = {
   title: 'Sef Driving Car Documentation',
-  url: 'https://avyana.tech',
+  url: 'docs.avyana.tech',
   baseUrl: `/`,
   i18n: {
     defaultLocale: 'en',
