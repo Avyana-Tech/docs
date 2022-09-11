@@ -22,7 +22,7 @@ AVYANA is an open-source project for autonomous self-driving cars. It is based o
 
 Start by installing [Core](https://github.com/Avyana-Tech/core).
 
-![Architecture](static/img/architecture.png)
+![Architecture](./assets/architecture.png)
 
 The **CORE** repository is a meta repository, that interfaces all other required repositories. It is built in this manner, as it is expected that everyone would be cloning the **CORE REPOSITORY**.
 
