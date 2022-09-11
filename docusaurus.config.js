@@ -4,7 +4,7 @@ const BASE_URL = '/';
 
 module.exports = {
   title: 'Sef Driving Car Documentation',
-  url: 'docs.avyana.tech',
+  url: 'https://https://docs.avyana.tech',
   baseUrl: `/`,
   i18n: {
     defaultLocale: 'en',
@@ -28,7 +28,7 @@ module.exports = {
         alt: 'Site Logo',
         src: `img/meta/light_logo.png`,
         srcDark: `img/meta/dark_logo.png`,
-        href: '/',
+        href: 'https://avyana.tech',
         target: '_self',
         width: 100,
         height: 100,

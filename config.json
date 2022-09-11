@@ -1,9 +1,9 @@
 {
     "index_name": "selfdrivingcardocs",
     "start_urls": [
-      "docs.avyana.tech"
+      "https://docs.avyana.tech"
     ],
-    "sitemap_urls": ["docs.avyana.tech/sitemap.xml"],
+    "sitemap_urls": ["https://docs.avyana.tech/sitemap.xml"],
     "sitemap_alternate_links": true,
     "stop_urls": ["/tests"],
     "selectors": {
