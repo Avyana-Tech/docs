@@ -30,8 +30,8 @@ module.exports = {
         srcDark: `img/meta/dark_logo.png`,
         href: 'https://avyana.tech',
         target: '_self',
-        width: 256,
-        height: 256,
+        width: 150,
+        height: 150,
       },
       items: [
         {
