@@ -15,6 +15,14 @@ module.exports = {
       collapsed: false,
       items: ['model_index']
     }
+  ],
+  docs3: [
+    {
+      type: 'category',
+      label: 'Studio',
+      collapsed: false,
+      items: ['studio_index']
+    }
   ]
   
 }

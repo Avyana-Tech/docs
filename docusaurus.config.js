@@ -20,7 +20,7 @@ module.exports = {
   projectName: 'Avyana Docs',
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
     },
     navbar: {
       hideOnScroll: false,
@@ -63,13 +63,13 @@ module.exports = {
           position: 'right',
           items: [
             {
-              href: '#',
+              href: 'https://github.com/Avyana-Tech/docs/blob/main/.github/ISSUE_TEMPLATE/raise_issue.md',
               label: 'Raise an Issue',
               target: '_blank',
               rel: null,
             },
             {
-              href: '#',
+              href: 'https://github.com/Avyana-Tech/docs/blob/main/.github/ISSUE_TEMPLATE/request_documentation.md',
               label: 'Request Documentation',
               target: '_blank',
               rel: null,

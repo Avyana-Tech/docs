@@ -30,7 +30,7 @@ html[data-theme='dark'] {
 #__docusaurus {
   [class^='docSidebarContainer'] {
     background: var(--token-primary-bg-c);
-
+    padding-top: 20px;
     position: sticky;
     top: 0;
     margin-block-start: 0;
