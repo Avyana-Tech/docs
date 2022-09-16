@@ -94,7 +94,7 @@ module.exports = {
     algolia: {
       appId: '263ZJ5ZQ84',
       apiKey: '53421c2638507f7806859b7e1b98a079', 
-      indexName: 'avyana_docs',
+      indexName: 'docs',
       contextualSearch: true,
     }, 
   },
