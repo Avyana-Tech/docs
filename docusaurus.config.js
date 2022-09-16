@@ -16,8 +16,8 @@ module.exports = {
   },
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'self-driving-cars',
-  projectName: 'selfdrivingcars',
+  organizationName: 'avyana-tech',
+  projectName: 'Avyana Docs',
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
@@ -47,6 +47,12 @@ module.exports = {
           // id is the name of index file
           label: 'MODEL',
           position: 'left',
+        },
+        {
+          type: 'doc',
+          docId: 'studio_index',
+          label: 'STUDIO',
+          position: 'left'
         },
         {
           type: 'search',
@@ -86,9 +92,9 @@ module.exports = {
       additionalLanguages: ['shell-session', 'http'],
     },
     algolia: {
-      appId: 'EBADZUXU7S',
-      apiKey: '865feac8fcaa06ccbd404fce533c3329',
-      indexName: 'selfdrivingcardocs',
+      appId: '263ZJ5ZQ84',
+      apiKey: 'b2cabc6d45241a8147dbd31f561a458a',
+      indexName: 'docs',
       contextualSearch: true,
     }, 
   },

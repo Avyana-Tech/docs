@@ -24,7 +24,7 @@ Start by installing [Core](https://github.com/Avyana-Tech/core).
 
 ![Architecture](./assets/architecture.png)
 
-The **CORE** repository is a meta repository, that interfaces all other required repositories. It is built in this manner, as it is expected that everyone would be cloning the **CORE REPOSITORY**.
+The **CORE** repository is a meta repository, that interfaces all other required repositories. It is built in this manner, as it is expected that everyone would be cloning the **[CORE REPOSITORY](https://github.com/Avyana-Tech/core)**.
 
 :::note
 This guide is an active work in progress. The information provided should be correct, but you may find missing information or incomplete pages.
