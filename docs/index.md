@@ -20,9 +20,15 @@ import DocsCards from '@components/global/DocsCards';
 
 AVYANA is an open-source project for autonomous self-driving cars. It is based off on ROS2 and is aimed for both dev and production environments on a variety of ground based vehicles.
 
-Start by installing **[AVYANA](https://github.com/Avyana-Tech/Avyana.git)**.
+<DocsCards>
+  <DocsCard header="Avyana" href="https://github.com/Avyana-Tech/Avyana.git" icon="/img/meta/light_logo.png">
+      <p>Start by installing the AVYANA Meta Repository.</p>
+  </DocsCard>
+</DocsCards>
 
-The **Avyana** repository is a meta repository, that interfaces all other required repositories. It is built in this manner, so that it becomes easy for us to build individual sub-systems, and it becomes easier for the end-user to debug.
+The **Avyana** repository is a meta repository, that interfaces all other required repositories. It is built in this manner, so that it becomes easy for us to build individual sub-systems, and it becomes easier for the end-user to debug. The main reason to choose ROS2 Humble as a starting point is that, we would like to work with **NVIDIA** suite of softwares such as **[ISAAC](https://developer.nvidia.com/isaac-sim)**, **[ISAAC-ROS](https://github.com/NVIDIA-ISAAC-ROS)** and **Jetson Orin** at a later point. We have settled up with Nvidia explicitly, as the tone of development towards Autonomous Vehicles and available open-source software and hardware is well in reach from Nvidia, and without the need for an FPGA Board. We plan of using an Nvidia Orin NX 32Gb board for edge-processing, and rely less on cloud connections except to relay data for Visualisation and training. This is done so that the Autonomous Vehicle, can work even in remote areas. 
+
+
 
 <intro-end />
 
