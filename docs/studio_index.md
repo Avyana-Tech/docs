@@ -17,9 +17,7 @@ The **AVYANA STUDIO** is an open-source ROS Visualisation platform, that can be 
 
 It is cross-platform and can connect to your **ROBOT** over wifi. Even if your ROS Stack, is running on a different Operating System, you can visualize, command and even change parameters from **Avyana Studio**, without having to do any extra-setup. 
 
-<video controls>
-  <source src="/video/studio.mp4"/>
-</video>
+![Image](/img/studio_demo.png)
 
 <intro-end />
 
