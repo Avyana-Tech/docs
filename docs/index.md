@@ -13,7 +13,7 @@ import DocsCards from '@components/global/DocsCards';
 
 <head>
   <title>Self Driving Car - Introduction </title>
-    <style>{` :root { --doc-item-container-width:55rem; } `}</style>    
+    <style>{` :root { --doc-item-container-width:60rem; } `}</style>    
 </head>
 
 **Self Driving Car**

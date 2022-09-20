@@ -8,11 +8,20 @@ slug: /studio
 import DocsCard from '@components/global/DocsCard';
 import DocsCards from '@components/global/DocsCards';
 
-# Avyana Studio
+<head>
+  <title> Avyana Studio Introduction </title>
+    <style>{` :root { --doc-item-container-width:60rem; } `}</style>    
+</head>
 
-The **AVYANA STUDIO** is an open-source ROS Visualisation platform, that can be customized as you want it. It is available in a variety of ways to make development as convenient as possible – it can be run as a standalone Desktop App on **[MAC](#)**, **[WINDOWS](#)** & **[LINUX](#)**, as a **[Web-App](#)** or even as a sel-hosted setup using Docker.
+The **AVYANA STUDIO** is an open-source ROS Visualisation platform, that can be customized as you want it. It is available in a variety of ways to make development as convenient as possible – it can be run as a standalone Desktop App on **[MAC](#)**, **[WINDOWS](#)** & **[LINUX](#)**, as a **[Web-App](#)** or even as a Self-hosted app using Docker.
 
 It is cross-platform and can connect to your **ROBOT** over wifi. Even if your ROS Stack, is running on a different Operating System, you can visualize, command and even change parameters from **Avyana Studio**, without having to do any extra-setup. 
+
+<video controls>
+  <source src="/video/studio.mp4"/>
+</video>
+
+<intro-end />
 
 <DocsCards>
   <DocsCard header="Connect to Data" href="/model" icon="/img/meta/light_logo.png">

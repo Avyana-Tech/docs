@@ -4,6 +4,11 @@ sidebar_label: Installation
 hide_table_of_contents: false
 ---
 
+<head>
+  <title> Avyana Software Installation </title>
+    <style>{` :root { --doc-item-container-width:60rem; } `}</style>    
+</head>
+
 The main OS we use, for developing the car is `Ubuntu 22.04 LTS Jammy`, and built with `ROS2 HUMBLE`. 
 
 Start by cloning the **[AVYANA](https://github.com/Avyana-Tech/Avyana.git)** repository into your ROS Workspace. 
@@ -19,7 +24,7 @@ sudo bash Installation/main.bash
 
 This file installs ROS 2 Humble, all other required dependencies and creates a ros2 workspace. Once the workspace is created, copy the `AVYANA` folder into the workspace.
 
-### Main Install
+#### Main Install
 
 Now, follow the below steps
 
