@@ -63,13 +63,13 @@ module.exports = {
           position: 'right',
           items: [
             {
-              href: 'https://github.com/Avyana-Tech/docs/blob/main/.github/ISSUE_TEMPLATE/raise_issue.md',
+              href: 'https://github.com/Avyana-Tech/docs/issues/new?assignees=REGATTE&labels=bug%2C+help+wanted%2C+question&template=raise-an-issue.md&title=Raise+an+Issue',
               label: 'Raise an Issue',
               target: '_blank',
               rel: null,
             },
             {
-              href: 'https://github.com/Avyana-Tech/docs/blob/main/.github/ISSUE_TEMPLATE/request_documentation.md',
+              href: 'https://github.com/Avyana-Tech/docs/issues/new?assignees=REGATTE&labels=documentation&template=documentation-request.md&title=REQUEST+DOCUMENTATION',
               label: 'Request Documentation',
               target: '_blank',
               rel: null,
@@ -116,20 +116,8 @@ module.exports = {
       {
         routeBasePath: '/',
         sidebarPath: require.resolve('./sidebars.js'),
-        editUrl: ({ versionDocsDirPath, docPath, locale }) => {
-          if (locale != 'en') {
-            return '#';
-          }
-          return `#`;
-        },
         exclude: ['README.md'],
         lastVersion: 'current',
-        versions: {
-          current: {
-            label: 'v6',
-            banner: 'none',
-          },
-        },
       },
     ],
     '@docusaurus/plugin-content-pages',
