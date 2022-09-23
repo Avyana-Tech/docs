@@ -11,7 +11,7 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['Avyana_Software/installation'],
+      items: ['Avyana_Software/installation', 'Avyana_Software/IsaacSim'],
     }
   ],
   docs2: [
