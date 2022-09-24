@@ -9,7 +9,11 @@ hide_table_of_contents: false
     <style>{` :root { --doc-item-container-width:60rem; } `}</style>    
 </head>
 
-We use **Isaac Sim** to train our models.
+We use **Isaac Sim** to train our models. **NVIDIA Isaac Sim™**, powered by **Omniverse™**, is a scalable robotics simulation application and synthetic data-generation tool that powers photorealistic, physically accurate virtual environments to develop, test, and manage AI-based robots.
+
+<intro-end />
+
+
 
 ## Isaac Sim Setup
 
@@ -124,4 +128,10 @@ This message confirms that the docker image is up and running.
 - Click on Connect, and this will launch your Isaac Sim Instance
 
 ![Isaam Sim Stream Client](/img/Isaac_Sim_stream_client.png)
+
+### References
+
+- [AWS EC2 Instance Launch](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/install_advanced_cloud_setup_aws.html)
+- [Omniverse Stream Client](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/manual_livestream_clients.html#isaac-sim-setup-kit-remote)
+- [Isaac Sim Interface](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/tutorial_intro_interface.html#isaac-sim-app-tutorial-intro-interface)
 
