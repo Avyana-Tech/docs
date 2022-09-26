@@ -32,8 +32,8 @@ Now, follow the below steps
 cd ros2_ws/src
 cd Avyana
 
-git submodule init
-git submodule update
+git submodule update --init --recursive
+git submodule update --remote
 
 rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
