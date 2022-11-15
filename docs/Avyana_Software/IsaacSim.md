@@ -47,7 +47,7 @@ We use **Isaac Sim** to train our models. **NVIDIA Isaac Sim™**, powered by **
 - On your desktop, go to the folder where the **`KeyPair`** created initially in downloaded, and make it executable by
 
 ```
-    chmod 400 keypair.prm
+    chmod 400 keypair.pem
 ```
 
 - In the same folder, open terminal and connect to the EC2 instace via SSH by
@@ -103,7 +103,7 @@ This message confirms that the docker image is up and running.
 - Then install a few dependencies 
 
 ```
-    sudo apt-get install FUSE
+    sudo apt-get install fuse
 ```
 
 - Now launch the app
@@ -128,6 +128,20 @@ This message confirms that the docker image is up and running.
 - Click on Connect, and this will launch your Isaac Sim Instance
 
 ![Isaam Sim Stream Client](/img/Isaac_Sim_stream_client.png)
+
+### Enabling ROS2 Bridge
+
+In the streaming client, Go to 
+```
+Window > Extensions 
+```
+and search for **ROS**
+
+![search for ros](/img/search_ros.png)
+
+and then enable **ROS 2**
+
+![Enable ROS 2](/img/enable_ros_2.png)
 
 ### References
 

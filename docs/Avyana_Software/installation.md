@@ -35,6 +35,9 @@ cd Avyana
 git submodule update --init --recursive
 git submodule update --remote
 
+cd
+cd ros2_ws 
+
 rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
@@ -47,8 +50,8 @@ This will install all the other required repositories, install package specific 
 To update, at a later point, follow the below steps
 
 ```
-git submodule update
-
+git submodule update --remote
+ 
 rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
