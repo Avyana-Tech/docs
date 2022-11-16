@@ -21,12 +21,18 @@ It is cross-platform and can connect to your **ROBOT** over wifi. Even if your R
 
 <intro-end />
 
+On opening Avyana Studio, you will see a dialog with a list of all possible data sources (i.e. local file, remote file, live connection) – click into any of these options to start visualizing your data.
+
 <DocsCards>
-  <DocsCard header="Connect to Data" href="/model" icon="/img/meta/light_logo.png">
-    <p>Step-by-step guides to connect to a live-robot, or visualize older data. </p>
+  <DocsCard header="Connect to Local File" href="/studio_index" icon="/img/meta/light_logo.png">
+    <p> Step-by-step guides to visualize data from Local File. </p>
   </DocsCard>
 
-  <DocsCard header="Custom Build" href="/Studio/custom_build/index" icon="/img/meta/light_logo.png">
-    <p>Step-by-step guides to build it on your own.</p>
+  <DocsCard header="Connect to Remote File" href="/studio_index" icon="/img/meta/light_logo.png">
+    <p> Step-by-step guides to visualize data from Remote File. </p>
+  </DocsCard>
+
+  <DocsCard header="Connect to Web-Socket" href="/studio/connect/websocket" icon="/img/meta/light_logo.png">
+    <p> Step-by-step guides to connect and visualize data from Web-Socket. </p>
   </DocsCard>
 </DocsCards>
