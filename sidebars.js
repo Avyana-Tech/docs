@@ -33,7 +33,7 @@ module.exports = {
       type: 'category',
       label: 'Connect',
       collapsed: false,
-      items: ['connect/websocket']
+      items: ['Studio/connect/websocket']
     },
     {
       type: 'category',

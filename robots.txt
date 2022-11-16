@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /
-
-// To Disallow all search and scraping bots

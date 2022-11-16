@@ -56,3 +56,11 @@ rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
+
+
+:::note
+If there are any issues with the installation, do check the troubleshooting guide 
+
+[Trouble Shooting guide](/help/troubleshooting)
+
+:::
