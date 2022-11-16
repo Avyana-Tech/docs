@@ -21,9 +21,9 @@ jobs:
          with:
            node-version: '14'
 
-       - name: NPM install
+       - name: Install dep's
          run: |
-           npm install && npm run build
+           yarn install && yarn build
        - name: Create .nojekyll file for GitHub Pages
          run: |
            touch build/.nojekyll
